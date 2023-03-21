@@ -32,10 +32,10 @@ public class CricketData implements Subject {
     }
 
     private int getLatestRuns() {
-        return 100;
+        return 90;
     }
     private int getLatestWickets() {
-        return 3;
+        return 4;
     }
     private float getLatestOvers() {
         return (float) 10.2;

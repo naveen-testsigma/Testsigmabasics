@@ -19,7 +19,7 @@ public class CricketData implements Subject {
     }
 
     @Override
-    public void unregisterObserver(Observer o) {
+    public void unregisterObserver (Observer o) {
         observerList.remove(observerList.indexOf(o));
     }
 
@@ -32,10 +32,10 @@ public class CricketData implements Subject {
     }
 
     private int getLatestRuns() {
-        return 90;
+        return 100;
     }
     private int getLatestWickets() {
-        return 2;
+        return 3;
     }
     private float getLatestOvers() {
         return (float) 10.2;

@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args){
         try {
-            throw new TestSuiteFailure("The test Suite is failed !");
+            throw new TestSuiteFailure("The test failed !");
             /*
             /throw new TestPlanFailure/TestSuite
              */
